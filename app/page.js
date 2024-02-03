@@ -7,7 +7,7 @@ import { Bars3Icon } from '@heroicons/react/24/solid'
 const menus = [
   { href: '/', text: "home"  },
   { href: '/about', text: "about"  },
-  { href: '/contact', text: "contact"  },
+  { href: '/contact', text: "contact"   },
 ]
 
 const icons = [
@@ -81,6 +81,40 @@ export default function Home() {
           </div>
         </section>
       </main>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <footer class="py-3 md:py-4 px-4 mx-auto flex flex-row justify-between items-center md:max-w-3xl xl:max-w-7x1">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="" class="h-8" alt="" />
+                    <span class="self-center text-2xl font-semibold ">NextJS</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Sosial Media</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Github</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 sm:mx-auto lg:my-8" />
+            <span class="block text-sm sm:text-center">© 2023 <a href="https://nextjs.org" class="hover:underline">NextJS™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
     </>
 
   );

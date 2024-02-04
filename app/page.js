@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import TaskIcon from '@/components/svgs/TaskIcon';
 import GithubIcon from '@/components/svgs/github';
 import InstagramIcon from '@/components/svgs/instagram';

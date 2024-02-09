@@ -5,6 +5,7 @@ import InstagramIcon from '@/components/svgs/instagram';
 import TiktokIcon from '@/components/svgs/tiktok';
 import YoutubeIcon from '@/components/svgs/youtube';
 import { Bars3Icon } from '@heroicons/react/24/solid'
+
 const menus = [
   { href: '/', text: "home"  },
   { href: '/about', text: "about"  },
@@ -72,15 +73,17 @@ export default function Home() {
             <h3 className="flex flex-col font-light text-[34px] md:text-[72px]">
               <span className="flex items-center space-x-2">Gw Fikri<TaskIcon className="md:w-14 md:h-14"/></span>
               <span>Ini cuma Prototype </span>
-              <span>Maaf masih pemula</span>
+              <span>Cuman coba-coba</span>
             </h3>
           </div>
           <div>
             <h2 className="flex flex-col font-reguler md:text-[16]">
-              <span>kata reika aku pemula di after effect, tapi fakta sih tapi aku sedih aduhai le, tapi akun mole ku laku 300k</span>
+              <span>disini isi paragraf tentang penjelasan diri sendiri dll, intinya isinya paragraf</span>
             </h2>
           </div>
         </section>
+
+        
       </main>
     <br></br>
     <br></br>
@@ -119,5 +122,4 @@ export default function Home() {
     </>
 
   );
-  
-}
+};
